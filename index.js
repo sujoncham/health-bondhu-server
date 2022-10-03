@@ -12,6 +12,10 @@ app.get('/', (req, res)=>{
     res.send('connected');
 })
 
+app.get('/testing', (req, res)=>{
+    res.send('Hello, my name is sujon chambugong')
+})
+
 app.listen(port, ()=>{
     console.log('server connected', port);
 })
